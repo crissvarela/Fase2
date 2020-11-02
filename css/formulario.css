@@ -1,0 +1,303 @@
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #e74c3c, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e74c3c, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+
+}
+/* Mneu nav*/
+
+.menu-bar{
+    display: none;
+}
+header{
+    width: 100%;
+}
+header nav{
+   width: 90%;
+   max-width: 1000px;
+   margin: 20px auto;
+   background:rgba(221, 73, 29, 0.562);
+}
+header nav ul{
+    overflow: hidden;
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+
+}
+header nav ul li a{
+    color: rgb(21, 248, 123);
+    padding: 20px;
+    display: block;
+    text-decoration:none ;
+}
+header nav ul li span{
+   margin-right: 10px;
+}
+header nav ul li a:hover{
+    background:rgb(3, 41, 53) ;
+}
+section{
+    padding:20px;
+}
+@media screen and (max-width:800px){
+    header nav{
+        width:80%;
+        height:100%;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+    }
+    header nav ul li{
+        display: block;
+        float: none;
+        border-bottom: 1px solid rgb(255, 255, 255,.3) ;
+    }
+    .menu-bar{
+        display: block;
+        background: rgb(236, 233, 241);
+        width:100%;
+    }
+    .menu-bar .bt-menu{
+        display: block;
+        padding: 20px;
+        background:rgb(24, 224, 238) ;
+        color: teal;
+        text-decoration:none;
+        font-weight: bold;
+        font-size: 20px;
+        -webkit-box-sizing:border-box ;
+        -moz-box-sizing:border-box ;
+        box-sizing: border-box;
+    }
+    
+    .menu-bar span{
+        float: right;
+        font-size: 40px;
+    }
+    
+
+}
+
+/* sesion */
+
+.container-sesion{
+    width: 370px;
+    height: 420px;
+    background: rgb(87, 12, 3);
+    color: rgb(247, 243, 243);
+    top: 65%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: rgb(12, 8, 0);
+    padding: 70px 30px;
+}
+.container-sesion .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+.container-sesion h1{
+    margin: 0;
+    padding: 0 0 20px;
+   text-align: center;
+    font-size: 22px;
+}
+.container-sesion label{
+    margin: 0;
+    padding: 0;
+    font-size:bold;
+    display: block;
+}
+.container-sesion input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.container-sesion input[type="text"]
+.container-sesion input[type="password"]{
+    border: none;
+    border-bottom:1px solid #fff ;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size:16px ;
+    color: #fff;
+
+}
+.container-sesion input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(238, 55, 9);
+    color: #fff;
+    font-size: 18px;
+    border-radius:20px ;
+}
+.container-sesion a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height:20px ;
+    color: darkgray;
+
+}
+.container-sesion a:hover{
+    color: #fff;
+}
+/* Registro*/
+.container-registro{
+    width: 420px;
+    height: 750px;
+    background: rgb(87, 12, 3);
+    color: rgb(247, 243, 243);
+    top: 86%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: rgb(12, 8, 0);
+    padding: 70px 30px;
+}
+.container-registro h2{
+    margin: 0;
+    padding: 0 0 20px;
+   text-align: center;
+    font-size: 22px;
+
+}
+.container-registro label{
+    margin: 0;
+    padding: 0;
+    font-size:bold;
+    display: block;
+
+}
+.container-registro input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.container-registro input[type="text"]
+.container-registro input[type="password"]{
+    border: none;
+    border-bottom:1px solid #fff ;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size:16px ;
+    color: #fff;
+
+}
+.container-registro input[type="sumit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(238, 55, 9);
+    color: #fff;
+    font-size: 18px;
+    border-radius:20px ;
+
+}
+.container-registro button{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(238, 55, 9);
+    color: #fff;
+    font-size: 18px;
+    border-radius:20px ;
+}
+
+
+
+
+
+/* Footer*/
+#footer{
+    background: #2e2e2e; ;
+    width: 100%;
+    height: auto;
+
+}
+#pie{
+    background: #000;
+    width: 100%;
+    height: auto;
+}
+.titulo-footer{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+.span-subti{
+    color: rgb(red, rgba(0, 128, 0, 0.938), blue);
+    font-weight: 500;
+}
+.contacto{
+    color: #f7f0f0c2;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight:800 ;
+}
+.redes{
+    font-size: 30px;
+    margin-top: 35px;
+    height: 49%;
+    width: 100%;
+    position: relative;
+    direction: none;
+
+}
+
+
+.titulo-contacto{
+    color: #fff;
+    font-size: 40px;
+
+}
+.localizacion{
+    color: chartreuse;
+    font-size: 25px;
+
+}
+.boton-sigenos{
+background:yellow ;
+width: 25%;
+height: 45%;
+margin: 0 auto;
+
+}
+.sigenos{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    position: relative;
+    top: 12px;
+    font-weight: 800;
+}
+#fondo-footer{
+background: crimson;
+width: 100%;
+height: 50px;
+}
+
+    
+
+
+
+
+
+
+
+
+
